@@ -4,13 +4,13 @@ import { useShop } from '../context/ShopContext';
 
 export const HeroSection = () => {
   const { addToCart, navigateTo } = useShop();
-  const [activeImage, setActiveImage] = useState('/images/hero.jpg');
+  const [activeImage, setActiveImage] = useState('./images/hero.jpg');
 
   const heroThumbnails = [
-    { src: '/images/hero.jpg', label: 'Studio View' },
-    { src: '/images/spine.jpg', label: 'Cervical Support' },
-    { src: '/images/bamboo.jpg', label: 'Bamboo Cover' },
-    { src: '/images/bedroom.jpg', label: 'Bedroom' }
+    { src: './images/hero.jpg', label: 'Studio View' },
+    { src: './images/spine.jpg', label: 'Cervical Support' },
+    { src: './images/bamboo.jpg', label: 'Bamboo Cover' },
+    { src: './images/bedroom.jpg', label: 'Bedroom' }
   ];
 
   const scrollToSection = (id) => {

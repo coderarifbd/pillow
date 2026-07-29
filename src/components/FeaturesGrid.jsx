@@ -9,7 +9,7 @@ export const FeaturesGrid = () => {
       subtitle: 'Orthopedic Neck Relief',
       description: 'Features high and low profile contours (4.8" and 3.8") tailored for both side and back sleepers to gently cradle the head while maintaining natural spinal curve.',
       badge: 'Dual Height Design',
-      image: '/images/spine.jpg'
+      image: './images/spine.jpg'
     },
     {
       icon: Wind,
@@ -17,7 +17,7 @@ export const FeaturesGrid = () => {
       subtitle: 'Air-Weave Thermal Control',
       description: 'Woven with organic bamboo fibers and 3D mesh side panels to dissipate body heat 3x faster than standard cotton, keeping you cool all night.',
       badge: 'Cooling Technology',
-      image: '/images/bamboo.jpg'
+      image: './images/bamboo.jpg'
     },
     {
       icon: ShieldCheck,
@@ -25,7 +25,7 @@ export const FeaturesGrid = () => {
       subtitle: 'Zero Sag & Non-Toxic Core',
       description: 'Certified premium slow-rebound memory foam manufactured without ozone depleters, mercury, lead, or formaldehyde. Guaranteed not to flatten for 10 years.',
       badge: 'Certified Safe',
-      image: '/images/hero.jpg'
+      image: './images/hero.jpg'
     },
     {
       icon: RefreshCw,
@@ -33,7 +33,7 @@ export const FeaturesGrid = () => {
       subtitle: 'Easy Cleaning & Hygiene',
       description: 'Includes a smooth hidden zipper to effortlessly remove the outer bamboo casing for machine washing in warm water. Hypoallergenic & dust-mite resistant.',
       badge: 'Easy Maintenance',
-      image: '/images/bedroom.jpg'
+      image: './images/bedroom.jpg'
     }
   ];
 

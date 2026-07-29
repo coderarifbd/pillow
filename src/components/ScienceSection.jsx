@@ -84,7 +84,7 @@ export const ScienceSection = () => {
             <div className="lg:col-span-6 relative">
               <div className="relative rounded-2xl overflow-hidden bg-slate-900 border border-slate-700/80 shadow-2xl">
                 <img
-                  src="/images/spine.jpg"
+                  src="./images/spine.jpg"
                   alt="Cervical Spine Medical Alignment"
                   className="w-full h-auto object-cover"
                 />

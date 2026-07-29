@@ -13,12 +13,12 @@ export const DEFAULT_PRODUCT = {
   reviewsCount: 2480,
   sku: 'SF-PLW-01',
   description: 'Engineered by orthopedists and sleep scientists to eliminate cervical neck tension, optimize spinal alignment, and deliver deep restorative REM sleep night after night.',
-  image: '/images/hero.jpg',
+  image: './images/hero.jpg',
   images: [
-    { src: '/images/hero.jpg', alt: 'SomnaForm Ergonomic Contour Pillow Studio View' },
-    { src: '/images/spine.jpg', alt: 'Cervical Spine Medical Alignment Diagram' },
-    { src: '/images/bamboo.jpg', alt: 'Ultra-Breathable Bamboo Air-Weave Fabric' },
-    { src: '/images/bedroom.jpg', alt: 'SomnaForm Pillow in Modern Bedroom Setting' }
+    { src: './images/hero.jpg', alt: 'SomnaForm Ergonomic Contour Pillow Studio View' },
+    { src: './images/spine.jpg', alt: 'Cervical Spine Medical Alignment Diagram' },
+    { src: './images/bamboo.jpg', alt: 'Ultra-Breathable Bamboo Air-Weave Fabric' },
+    { src: './images/bedroom.jpg', alt: 'SomnaForm Pillow in Modern Bedroom Setting' }
   ],
   specs: [
     { label: 'Core Material', value: 'CertiPUR-US® High-Density Memory Foam' },
