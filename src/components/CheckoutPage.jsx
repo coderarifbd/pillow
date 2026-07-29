@@ -346,10 +346,10 @@ export const CheckoutPage = () => {
                   <label className="text-xs font-bold text-slate-300 block mb-1">CVC / Security Code</label>
                   <input
                     type="password"
-                    maxLength={4}
+                    maxLength={3}
                     placeholder="789"
                     value={formData.cvc}
-                    onChange={(e) => setFormData({ ...formData, cvc: e.target.value.replace(/\D/g, '') })}
+                    onChange={(e) => setFormData({ ...formData, cvc: e.target.value.replace(/\D/g, '').slice(0, 3) })}
                     className={`w-full px-4 py-3 rounded-xl bg-slate-900 border text-sm text-white font-mono focus:outline-none ${
                       errors.cvc ? 'border-rose-500' : 'border-slate-800 focus:border-indigo-500'
                     }`}
