@@ -49,7 +49,7 @@ export const Footer = () => {
             </div>
 
             <p className="text-slate-400 text-sm leading-relaxed max-w-sm">
-              Ridgewell Supply Co., LLC is a specialized retail and e-commerce company driving performance scaling, product quality, and custom consumer brand builds including <strong>SomnaForm Ergonomic Contour Memory Foam Pillow</strong>.
+              Ridgewell Supply Co., LLC is committed to delivering comfortable sleep products that help eliminate neck pain, including the <strong>Super-Cooling Memory Foam Pillow</strong>.
             </p>
           </div>
 
@@ -171,27 +171,6 @@ export const Footer = () => {
               <p className="text-slate-400">1908 Thomes Ave STE 12130</p>
               <p className="text-slate-400">Cheyenne, WY, 82001</p>
               <p className="text-slate-400">EIN: 35-2900976</p>
-              
-              <div className="pt-3 space-y-1.5 border-t border-slate-900/80">
-                <p className="flex items-center gap-1.5">
-                  <span className="font-bold text-white">Email:</span>
-                  <a
-                    href="mailto:ceo@ridgewellsupplycollc.com"
-                    className="cursor-pointer text-cyan-400 hover:text-cyan-300 hover:underline font-medium transition"
-                  >
-                    ceo@ridgewellsupplycollc.com
-                  </a>
-                </p>
-                <p className="flex items-center gap-1.5">
-                  <span className="font-bold text-white">Phone:</span>
-                  <a
-                    href="tel:+13074106056"
-                    className="cursor-pointer text-slate-300 hover:text-cyan-400 hover:underline font-medium transition"
-                  >
-                    +1 307 410 6056
-                  </a>
-                </p>
-              </div>
             </div>
           </div>
 
@@ -202,7 +181,7 @@ export const Footer = () => {
           
           {/* Left Copyright */}
           <div className="text-slate-400 text-center sm:text-left">
-            © 2026 Ridgewell Supply Co., LLC. All Rights Reserved. <span className="hidden lg:inline text-slate-500">| SomnaForm is a registered brand operated by Ridgewell Supply Co LLC.</span>
+            © 2026 Ridgewell Supply Co., LLC. All Rights Reserved.
           </div>
 
           {/* Right Official Domain Cyan Link */}

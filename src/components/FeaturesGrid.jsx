@@ -5,34 +5,34 @@ export const FeaturesGrid = () => {
   const features = [
     {
       icon: Layers,
-      title: 'Ergonomic Dual Contour',
-      subtitle: 'Orthopedic Neck Relief',
-      description: 'Features high and low profile contours (4.8" and 3.8") tailored for both side and back sleepers to gently cradle the head while maintaining natural spinal curve.',
-      badge: 'Dual Height Design',
+      title: 'Hugs Your Head Gently',
+      subtitle: 'No More Stiff Necks',
+      description: 'The curved center cradles your head while supporting your neck, keeping your spine straight whether you sleep on your side or back.',
+      badge: 'Perfect Neck Support',
       image: './images/spine.jpg'
     },
     {
       icon: Wind,
-      title: 'Breathable Bamboo Cover',
-      subtitle: 'Air-Weave Thermal Control',
-      description: 'Woven with organic bamboo fibers and 3D mesh side panels to dissipate body heat 3x faster than standard cotton, keeping you cool all night.',
-      badge: 'Cooling Technology',
+      title: 'Stays Ice-Cool All Night',
+      subtitle: 'Fresh & Sweat-Free',
+      description: 'Made with a breezy cooling fabric and side air vents that draw away heat so you never wake up sweaty again.',
+      badge: 'Stays Cool 24/7',
       image: './images/bamboo.jpg'
     },
     {
       icon: ShieldCheck,
-      title: 'CertiPUR-US® Memory Foam',
-      subtitle: 'Zero Sag & Non-Toxic Core',
-      description: 'Certified premium slow-rebound memory foam manufactured without ozone depleters, mercury, lead, or formaldehyde. Guaranteed not to flatten for 10 years.',
-      badge: 'Certified Safe',
+      title: 'Soft & Never Flattens',
+      subtitle: 'Premium Memory Foam',
+      description: 'Super comfortable memory foam that cushions your head without going flat. Bounces back softly every morning.',
+      badge: '10-Year Guarantee',
       image: './images/hero.jpg'
     },
     {
       icon: RefreshCw,
-      title: 'Washable Zip Slip Cover',
-      subtitle: 'Easy Cleaning & Hygiene',
-      description: 'Includes a smooth hidden zipper to effortlessly remove the outer bamboo casing for machine washing in warm water. Hypoallergenic & dust-mite resistant.',
-      badge: 'Easy Maintenance',
+      title: 'Super Easy to Wash',
+      subtitle: 'Zip-Off Clean Cover',
+      description: 'Just unzip the soft cover and throw it in the washing machine whenever you want a fresh, clean bed.',
+      badge: 'Machine Washable',
       image: './images/bedroom.jpg'
     }
   ];
@@ -44,13 +44,13 @@ export const FeaturesGrid = () => {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-semibold uppercase tracking-wider">
-            <Sparkles className="w-3.5 h-3.5" /> Engineered For Restorative Sleep
+            <Sparkles className="w-3.5 h-3.5" /> Sleep Better Every Night
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight font-outfit">
-            Designed to Solve The 4 Main Sleep Disturbers
+            4 Reasons Why You Will Fall in Love With This Pillow
           </h2>
           <p className="text-slate-300 text-base sm:text-lg">
-            Standard pillows push your neck out of alignment, trap body heat, and flatten over time. SomnaForm delivers targeted anatomical engineering.
+            Regular pillows flatten out, trap heat, and hurt your neck. This pillow fixes all three so you sleep soundly till morning.
           </p>
         </div>
 

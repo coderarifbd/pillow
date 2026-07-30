@@ -6,28 +6,28 @@ export const ScienceSection = () => {
 
   const sleepingPositions = {
     side: {
-      title: 'Side Sleeping Alignment',
-      height: '4.8 Inch High Contour',
-      cervicalBenefit: 'Fills the space between your ear and shoulder, maintaining a straight horizontal spine.',
-      commonMistake: 'Flat pillows cause the head to tilt downwards, pinching cervical nerves and straining shoulder joints.',
-      pressureReduction: '72% Lower Shoulder Pressure',
-      alignmentAngle: '180° Neutral Cervical Line'
+      title: 'If You Sleep On Your Side',
+      height: 'Taller Edge Contour',
+      cervicalBenefit: 'Fills the space between your ear and shoulder so your neck stays straight, calm, and pain-free.',
+      commonMistake: 'Flat pillows make your head bend sideways, which strains your neck and shoulders all night.',
+      pressureReduction: 'Relieves Shoulder Pressure',
+      alignmentAngle: 'Keeps Neck Straight'
     },
     back: {
-      title: 'Back Sleeping Support',
-      height: '3.8 Inch Low Contour',
-      cervicalBenefit: 'Cradles the natural lordotic curve of the neck while supporting the occipital base of the skull.',
-      commonMistake: 'Overly thick feather pillows push the chin toward the chest, obstructing airways and causing snoring.',
-      pressureReduction: '84% Airway Opening Optimization',
-      alignmentAngle: 'Natural 35° Cervical Curve'
+      title: 'If You Sleep On Your Back',
+      height: 'Gentle Center Contour',
+      cervicalBenefit: 'Cradles the back of your head like a cozy hammock, supporting your neck without pushing your head forward.',
+      commonMistake: 'Too-thick pillows push your chin down to your chest, causing neck stiffness and snoring.',
+      pressureReduction: 'Helps You Breathe Easy',
+      alignmentAngle: 'Natural Head Cradle'
     },
     stomach: {
-      title: 'Stomach / Transition Sleeping',
-      height: 'Low Recessed Center Contour',
-      cervicalBenefit: 'Ultra-gentle slope minimizes neck rotation twist, preventing morning stiffness.',
-      commonMistake: 'High pillows force hyper-extension of the cervical spine, causing chronic upper back tension.',
-      pressureReduction: '65% Less Rotation Strain',
-      alignmentAngle: 'Minimal Spine Distortion'
+      title: 'If You Sleep On Your Stomach',
+      height: 'Soft Low Contour',
+      cervicalBenefit: 'Ultra-gentle soft cushion stops your neck from twisting awkwardly so you wake up relaxed.',
+      commonMistake: 'High pillows force your neck to bend backwards, causing upper back soreness.',
+      pressureReduction: 'Stops Neck Twisting',
+      alignmentAngle: 'Zero Neck Tension'
     }
   };
 
@@ -43,13 +43,13 @@ export const ScienceSection = () => {
         {/* Section Title */}
         <div className="text-center max-w-3xl mx-auto mb-14 space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-semibold uppercase tracking-wider">
-            <Activity className="w-3.5 h-3.5 text-indigo-400" /> Biomechanical Sleep Engineering
+            <Activity className="w-3.5 h-3.5 text-indigo-400" /> Fits How You Sleep
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white font-outfit">
-            The Orthopedic Science Behind Cervical Alignment
+            Works Great For Every Sleep Position
           </h2>
           <p className="text-slate-300 text-base sm:text-lg">
-            Select your primary sleeping posture to see how SomnaForm dynamically adapts to maintain anatomical spine neutrality.
+            Choose how you sleep below to see how this pillow holds your head just right.
           </p>
         </div>
 
@@ -92,12 +92,12 @@ export const ScienceSection = () => {
                 {/* Glowing Overlay Marker */}
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-indigo-950/90 backdrop-blur-md p-4 rounded-xl border border-indigo-500/40 text-center space-y-1 shadow-2xl">
                   <div className="flex items-center justify-center gap-1.5 text-emerald-400 font-bold text-xs uppercase tracking-wider">
-                    <CheckCircle2 className="w-4 h-4" /> Anatomical Neutrality
+                    <CheckCircle2 className="w-4 h-4" /> 100% Pain Relief
                   </div>
                   <span className="text-white text-lg font-extrabold block font-outfit">
                     {current.alignmentAngle}
                   </span>
-                  <span className="text-slate-400 text-[11px]">C1-C7 Cervical Vertebrae Supported</span>
+                  <span className="text-slate-400 text-[11px]">Full Head & Neck Support</span>
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@ export const ScienceSection = () => {
             <div className="lg:col-span-6 space-y-6">
               <div>
                 <span className="text-xs font-bold text-indigo-400 uppercase tracking-widest block mb-1 font-mono">
-                  Recommended Elevation: {current.height}
+                  Pillow Shape: {current.height}
                 </span>
                 <h3 className="text-2xl sm:text-3xl font-extrabold text-white font-outfit">
                   {current.title}
@@ -116,7 +116,7 @@ export const ScienceSection = () => {
               {/* Benefit Box */}
               <div className="p-4 rounded-2xl bg-emerald-950/20 border border-emerald-500/30 space-y-2">
                 <div className="flex items-center gap-2 text-emerald-300 font-bold text-sm">
-                  <CheckCircle2 className="w-4 h-4 text-emerald-400" /> How SomnaForm Helps
+                  <CheckCircle2 className="w-4 h-4 text-emerald-400" /> How This Pillow Helps You
                 </div>
                 <p className="text-slate-300 text-sm leading-relaxed">
                   {current.cervicalBenefit}

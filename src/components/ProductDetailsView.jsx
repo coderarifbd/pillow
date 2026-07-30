@@ -13,14 +13,14 @@ export const ProductDetailsView = () => {
     single: {
       price: 79.00,
       original: 119.00,
-      label: 'Single SomnaForm Pillow',
+      label: '1x Cooling Pillow',
       savings: 'Save $40'
     },
     dual: {
       price: 139.00,
       original: 238.00,
-      label: 'Dual Pack (2x Pillows)',
-      savings: 'Save $99 - Best Value'
+      label: '2x Cooling Pillows (Best Value)',
+      savings: 'Save $99'
     }
   };
 

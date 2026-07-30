@@ -53,10 +53,10 @@ export const Navbar = () => {
               </div>
               <div>
                 <span className="text-xl font-bold tracking-tight text-white flex items-center gap-1 font-outfit">
-                  Somna<span className="text-indigo-400 font-normal">Form</span>
+                  RestEasy<span className="text-indigo-400 font-normal">Pillow</span>
                 </span>
                 <span className="text-[10px] text-slate-400 uppercase tracking-widest block font-mono font-medium">
-                  Cervical Contour
+                  Cooling Neck Relief
                 </span>
               </div>
             </button>
@@ -67,19 +67,19 @@ export const Navbar = () => {
                 onClick={() => handleNavClick('benefits')}
                 className="hover:text-indigo-400 transition-colors"
               >
-                Benefits
+                Why It Helps
               </button>
               <button 
                 onClick={() => handleNavClick('science')}
                 className="hover:text-indigo-400 transition-colors"
               >
-                Ergonomic Science
+                Sleep Positions
               </button>
               <button 
                 onClick={() => handleNavClick('specs')}
                 className="hover:text-indigo-400 transition-colors"
               >
-                Specs & Comparison
+                Compare
               </button>
               <button 
                 onClick={() => handleNavClick('reviews')}
@@ -141,19 +141,19 @@ export const Navbar = () => {
               onClick={() => handleNavClick('benefits')}
               className="block w-full text-left py-2.5 px-3 rounded-lg text-slate-200 hover:bg-slate-800/80 font-medium"
             >
-              Benefits
+              Why It Helps
             </button>
             <button
               onClick={() => handleNavClick('science')}
               className="block w-full text-left py-2.5 px-3 rounded-lg text-slate-200 hover:bg-slate-800/80 font-medium"
             >
-              Ergonomic Science
+              Sleep Positions
             </button>
             <button
               onClick={() => handleNavClick('specs')}
               className="block w-full text-left py-2.5 px-3 rounded-lg text-slate-200 hover:bg-slate-800/80 font-medium"
             >
-              Specs & Comparison
+              Compare
             </button>
             <button
               onClick={() => handleNavClick('reviews')}
@@ -176,7 +176,7 @@ export const Navbar = () => {
                 }}
                 className="w-full py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-center shadow-lg shadow-indigo-600/30"
               >
-                Shop SomnaForm Pillow - $79.00
+                Shop Cooling Pillow - $79.00
               </button>
             </div>
           </div>

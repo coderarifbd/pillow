@@ -8,13 +8,13 @@ export const ReviewsSection = () => {
   const reviews = [
     {
       id: 1,
-      name: 'Dr. Marcus Vance, D.C.',
-      role: 'Chiropractor & Sleep Specialist',
+      name: 'Dr. Marcus Vance',
+      role: 'Neck & Back Doctor',
       location: 'Austin, TX',
       rating: 5,
       date: '2 days ago',
-      title: 'I recommend this to 80% of my cervical patients',
-      comment: 'As a practicing chiropractor, neck stiffness is the #1 complaint I treat. SomnaForm’s dual contour design provides the exact cervical arch support needed to allow spinal muscles to disengage and repair during sleep.',
+      title: 'I recommend this pillow to all my neck pain patients',
+      comment: 'Neck stiffness is the #1 complaint I treat. This pillow’s soft curved shape holds your head gently so your neck muscles can relax and rest all night.',
       verified: true,
       category: 'expert',
       helpful: 84
@@ -26,8 +26,8 @@ export const ReviewsSection = () => {
       location: 'Seattle, WA',
       rating: 5,
       date: '1 week ago',
-      title: 'Woke up without a pinched nerve for the first time in 3 years!',
-      comment: 'I used to wake up every morning with a burning shoulder ache and stiff neck. The high contour side on SomnaForm supports my neck perfectly without squishing my ears. The bamboo cover stays noticeably cool too.',
+      title: 'Woke up without neck pain for the first time in years!',
+      comment: 'I used to wake up every morning with a sore shoulder and stiff neck. This pillow supports my neck perfectly without crushing my ear, and the cooling cover stays ice-cool.',
       verified: true,
       category: 'side',
       helpful: 42

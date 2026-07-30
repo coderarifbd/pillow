@@ -7,10 +7,12 @@ export const HeroSection = () => {
   const [activeImage, setActiveImage] = useState('./images/hero.jpg');
 
   const heroThumbnails = [
-    { src: './images/hero.jpg', label: 'Studio View' },
-    { src: './images/spine.jpg', label: 'Cervical Support' },
-    { src: './images/bamboo.jpg', label: 'Bamboo Cover' },
-    { src: './images/bedroom.jpg', label: 'Bedroom' }
+    { src: './images/hero.jpg', label: 'Cooling Pillow' },
+    { src: './images/spine.jpg', label: 'Neck Relief' },
+    { src: './images/bamboo.jpg', label: 'Breezy Cover' },
+    { src: './images/bedroom.jpg', label: 'In Bedroom' },
+    { src: './images/amazon_real_bed.jpg', label: 'Head Cradle' },
+    { src: './images/amazon_real_foam.jpg', label: 'Soft Memory Foam' }
   ];
 
   const scrollToSection = (id) => {
@@ -42,18 +44,18 @@ export const HeroSection = () => {
               </span>
               <span className="text-slate-600">•</span>
               <span className="text-xs text-indigo-400 font-medium flex items-center gap-1">
-                <CheckCircle2 className="w-3.5 h-3.5 text-indigo-400" /> 2,480+ Verified Buyers
+                <CheckCircle2 className="w-3.5 h-3.5 text-indigo-400" /> Loved by 2,480+ Happy Sleepers
               </span>
             </div>
 
             {/* Main Headline */}
             <div className="space-y-4">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.1] font-outfit">
-                Deep Rest, <br />
-                <span className="text-gradient-indigo">Zero Neck Strain.</span>
+                Sleep Soundly, <br />
+                <span className="text-gradient-indigo">No More Neck Pain.</span>
               </h1>
               <p className="text-lg sm:text-xl text-slate-300 font-normal leading-relaxed max-w-2xl">
-                The orthopedically contoured memory foam pillow engineered to align your cervical spine, relieve shoulder tension, and unlock uninterrupted, pain-free sleep.
+                A soft, ice-cool pillow shaped to hug your head and keep your neck straight, so you wake up full of energy every morning.
               </p>
             </div>
 
@@ -74,7 +76,7 @@ export const HeroSection = () => {
                 onClick={() => scrollToSection('product-buy')}
                 className="group relative inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white font-bold text-lg shadow-xl shadow-indigo-600/30 hover:shadow-indigo-600/50 transition-all duration-300 transform hover:-translate-y-0.5 cursor-pointer"
               >
-                <span>Shop SomnaForm Pillow - $79</span>
+                <span>Get Your Pillow Now - $79</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition duration-200" />
               </button>
 
@@ -82,7 +84,7 @@ export const HeroSection = () => {
                 onClick={() => navigateTo('checkout')}
                 className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-200 hover:text-white font-semibold text-base transition-all duration-200 cursor-pointer"
               >
-                <span>Express Checkout</span>
+                <span>Fast Checkout</span>
               </button>
             </div>
 
@@ -93,8 +95,8 @@ export const HeroSection = () => {
                   <RotateCcw className="w-5 h-5 text-indigo-400" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold text-white">30-Night Trial</h4>
-                  <p className="text-[11px] text-slate-400">Risk-free returns</p>
+                  <h4 className="text-xs font-bold text-white">30 Nights Trial</h4>
+                  <p className="text-[11px] text-slate-400">Try it risk-free</p>
                 </div>
               </div>
 
@@ -103,8 +105,8 @@ export const HeroSection = () => {
                   <Truck className="w-5 h-5 text-indigo-400" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold text-white">Free Shipping</h4>
-                  <p className="text-[11px] text-slate-400">Fast 3-5 day delivery</p>
+                  <h4 className="text-xs font-bold text-white">Free Delivery</h4>
+                  <p className="text-[11px] text-slate-400">Fast 3-5 day shipping</p>
                 </div>
               </div>
 
@@ -113,8 +115,8 @@ export const HeroSection = () => {
                   <ShieldCheck className="w-5 h-5 text-indigo-400" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold text-white">10-Year Warranty</h4>
-                  <p className="text-[11px] text-slate-400">Sag-proof foam core</p>
+                  <h4 className="text-xs font-bold text-white">10-Year Guarantee</h4>
+                  <p className="text-[11px] text-slate-400">Never goes flat</p>
                 </div>
               </div>
 
@@ -123,8 +125,8 @@ export const HeroSection = () => {
                   <Award className="w-5 h-5 text-indigo-400" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold text-white">CertiPUR-US®</h4>
-                  <p className="text-[11px] text-slate-400">Non-toxic memory foam</p>
+                  <h4 className="text-xs font-bold text-white">Safe & Clean</h4>
+                  <p className="text-[11px] text-slate-400">100% clean memory foam</p>
                 </div>
               </div>
             </div>
@@ -138,14 +140,14 @@ export const HeroSection = () => {
               {/* Highlight Badge */}
               <div className="absolute top-6 left-6 z-10 bg-indigo-900/90 backdrop-blur-md border border-indigo-500/40 text-indigo-200 text-xs font-bold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-lg">
                 <Sparkles className="w-3.5 h-3.5 text-amber-300" />
-                <span>Patented Ergonomic Contour</span>
+                <span>Gently Cradles Your Head</span>
               </div>
 
               {/* Main Image Container */}
               <div className="relative aspect-4/3 rounded-2xl overflow-hidden bg-slate-900">
                 <img
                   src={activeImage}
-                  alt="SomnaForm Ergonomic Contour Memory Foam Pillow"
+                  alt="Super-Cooling Memory Foam Pillow for Neck Pain Relief"
                   className="w-full h-full object-cover transform group-hover:scale-105 transition duration-700 ease-out"
                 />
                 
@@ -165,7 +167,7 @@ export const HeroSection = () => {
               </div>
 
               {/* Angle Thumbnails Bar */}
-              <div className="grid grid-cols-4 gap-2 mt-3">
+              <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 mt-3">
                 {heroThumbnails.map((thumb, idx) => (
                   <button
                     key={idx}

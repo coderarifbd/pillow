@@ -4,28 +4,31 @@ import confetti from 'canvas-confetti';
 const ShopContext = createContext();
 
 export const DEFAULT_PRODUCT = {
-  id: 'somnaform-contour-pillow',
-  name: 'SomnaForm Ergonomic Contour Memory Foam Pillow',
-  shortName: 'SomnaForm Ergonomic Pillow',
+  id: 'cooling-relief-pillow',
+  name: 'Super-Cooling Memory Foam Pillow for Neck Pain Relief',
+  shortName: 'Cooling Relief Pillow',
   price: 79.00,
   originalPrice: 119.00,
   rating: 4.9,
   reviewsCount: 2480,
-  sku: 'SF-PLW-01',
-  description: 'Engineered by orthopedists and sleep scientists to eliminate cervical neck tension, optimize spinal alignment, and deliver deep restorative REM sleep night after night.',
+  sku: 'COOL-PLW-01',
+  description: 'Say goodbye to morning neck pain! This soft pillow holds your head gently, keeps you cool all night, and helps you wake up rested and full of energy every single morning.',
   image: './images/hero.jpg',
   images: [
-    { src: './images/hero.jpg', alt: 'SomnaForm Ergonomic Contour Pillow Studio View' },
-    { src: './images/spine.jpg', alt: 'Cervical Spine Medical Alignment Diagram' },
-    { src: './images/bamboo.jpg', alt: 'Ultra-Breathable Bamboo Air-Weave Fabric' },
-    { src: './images/bedroom.jpg', alt: 'SomnaForm Pillow in Modern Bedroom Setting' }
+    { src: './images/hero.jpg', alt: 'Soft & Cooling Memory Foam Pillow' },
+    { src: './images/spine.jpg', alt: 'Keeps Neck Straight & Pain-Free' },
+    { src: './images/bamboo.jpg', alt: 'Super Cool Air-Breezy Fabric' },
+    { src: './images/bedroom.jpg', alt: 'Looks Great in Any Bedroom' },
+    { src: './images/amazon_real_bed.jpg', alt: 'Gentle Head Cradling Center' },
+    { src: './images/amazon_real_foam.jpg', alt: 'Soft Memory Foam & Easy Zipper' }
   ],
   specs: [
-    { label: 'Core Material', value: 'CertiPUR-US® High-Density Memory Foam' },
-    { label: 'Cover Fabric', value: '3D Breathable Organic Bamboo Slip' },
-    { label: 'Dimensions', value: '24.5" L x 15.0" W x 4.8"/3.8" H (Dual Height)' },
-    { label: 'Trial Period', value: '30 Nights Risk-Free' },
-    { label: 'Warranty', value: '10-Year Full Replacement Guarantee' }
+    { label: 'Inside Pillow', value: 'Soft & Supportive Memory Foam (Never Flattens)' },
+    { label: 'Pillow Cover', value: 'Ice-Cool Breathable Fabric (Removable & Washable)' },
+    { label: 'Best For', value: 'Side Sleepers, Back Sleepers & Stomach Sleepers' },
+    { label: 'Pillow Size', value: 'Fits all standard pillowcases (24.5" x 15")' },
+    { label: 'Try It Risk-Free', value: 'Sleep on it for 30 nights or your money back' },
+    { label: 'Guarantee', value: '10-Year Full Guarantee' }
   ]
 };
 
@@ -86,7 +89,7 @@ export const ShopProvider = ({ children }) => {
         variant
       }];
     });
-    showToast(`Added ${quantity}x ${product.shortName || 'SomnaForm Pillow'} to cart!`);
+    showToast(`Added ${quantity}x ${product.shortName || 'Cooling Pillow'} to cart!`);
     setIsCartOpen(true);
   };
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Check, X, Sparkles, HelpCircle } from 'lucide-react';
+import { Check, X, Sparkles } from 'lucide-react';
 import { useShop } from '../context/ShopContext';
 
 export const ComparisonTable = () => {
@@ -7,46 +7,46 @@ export const ComparisonTable = () => {
 
   const comparisonData = [
     {
-      feature: 'Ergonomic Cervical Contour',
-      somnaform: true,
+      feature: 'Curved Neck Support',
+      ourPillow: true,
       feather: false,
       flatFoam: false,
-      detail: 'Molded dual-elevation contour cradles neck & maintains natural alignment.'
+      detail: 'Holds your head gently and keeps your neck straight all night.'
     },
     {
-      feature: 'Spinal Alignment Support',
-      somnaform: 'Clinical Grade',
-      feather: 'Sags / Shifts',
+      feature: 'Keeps Spine Straight',
+      ourPillow: '100% Aligned',
+      feather: 'Sags / Bent',
       flatFoam: 'Too Stiff',
-      detail: 'Keeps cervical vertebrae aligned in side, back, & stomach sleep positions.'
+      detail: 'Works great whether you sleep on your side, back, or stomach.'
     },
     {
-      feature: 'CertiPUR-US® Memory Foam Core',
-      somnaform: true,
+      feature: 'Soft & Bouncy Memory Foam',
+      ourPillow: true,
       feather: false,
       flatFoam: false,
-      detail: 'Non-toxic, high-density foam core engineered never to flatten.'
+      detail: 'High quality cushion foam that never goes flat over time.'
     },
     {
-      feature: '3D Breathable Bamboo Slip Cover',
-      somnaform: true,
+      feature: 'Ice-Cool Breathable Cover',
+      ourPillow: true,
       feather: false,
       flatFoam: false,
-      detail: 'Organic bamboo weave dissipates heat 3x faster than standard cotton.'
+      detail: 'Special cooling fabric lets air flow so you stay fresh and sweat-free.'
     },
     {
-      feature: '30-Night Risk-Free Sleep Trial',
-      somnaform: true,
+      feature: '30-Night Home Trial',
+      ourPillow: true,
       feather: false,
       flatFoam: false,
-      detail: 'Sleep on it for 30 nights. If your neck does not feel relieved, get 100% refund.'
+      detail: 'Sleep on it for 30 nights. If you do not love it, get a 100% full refund.'
     },
     {
-      feature: '10-Year Sag-Proof Warranty',
-      somnaform: true,
+      feature: '10-Year Guarantee',
+      ourPillow: true,
       feather: false,
       flatFoam: '1 Year Only',
-      detail: 'Full replacement guarantee if foam loses shape or firmness.'
+      detail: 'Free replacement guarantee if your pillow ever flattens out.'
     }
   ];
 
@@ -57,13 +57,13 @@ export const ComparisonTable = () => {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-semibold uppercase tracking-wider">
-            <Sparkles className="w-3.5 h-3.5" /> Feature Comparison
+            <Sparkles className="w-3.5 h-3.5" /> Simple Comparison
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white font-outfit">
-            Why SomnaForm Outperforms Traditional Pillows
+            See How Our Cooling Pillow Beats Regular Pillows
           </h2>
           <p className="text-slate-300 text-base sm:text-lg">
-            See how our orthopedically contoured memory foam compares to old-fashioned feather stuffed or flat foam pillows.
+            See why old feather and flat foam pillows cause neck pain, while our cooling pillow keeps you comfortable.
           </p>
         </div>
 
@@ -74,21 +74,21 @@ export const ComparisonTable = () => {
               <thead>
                 <tr className="border-b border-slate-800 bg-slate-950/80">
                   <th className="p-6 text-sm font-bold text-slate-300 w-2/5">
-                    Feature & Spec Comparison
+                    What You Get
                   </th>
                   <th className="p-6 text-center w-1/5 bg-indigo-950/50 border-x border-indigo-500/30">
                     <div className="inline-block">
                       <span className="text-xs font-bold uppercase tracking-wider text-indigo-400 block mb-1">Recommended</span>
-                      <span className="text-xl font-extrabold text-white font-outfit block">SomnaForm™</span>
+                      <span className="text-xl font-extrabold text-white font-outfit block">Our Cooling Pillow</span>
                       <span className="text-xs font-semibold text-emerald-400">$79.00</span>
                     </div>
                   </th>
                   <th className="p-6 text-center w-1/5">
-                    <span className="text-base font-bold text-slate-400 font-outfit block">Standard Feather</span>
+                    <span className="text-base font-bold text-slate-400 font-outfit block">Old Feather Pillow</span>
                     <span className="text-xs text-slate-500">$35 - $60</span>
                   </th>
                   <th className="p-6 text-center w-1/5">
-                    <span className="text-base font-bold text-slate-400 font-outfit block">Flat Block Foam</span>
+                    <span className="text-base font-bold text-slate-400 font-outfit block">Flat Foam Pillow</span>
                     <span className="text-xs text-slate-500">$25 - $45</span>
                   </th>
                 </tr>
@@ -103,10 +103,10 @@ export const ComparisonTable = () => {
                       <div className="text-xs text-slate-400 leading-relaxed">{row.detail}</div>
                     </td>
 
-                    {/* SomnaForm Column */}
+                    {/* Our Pillow Column */}
                     <td className="p-6 text-center bg-indigo-950/30 border-x border-indigo-500/20 font-bold text-indigo-200">
-                      {typeof row.somnaform === 'boolean' ? (
-                        row.somnaform ? (
+                      {typeof row.ourPillow === 'boolean' ? (
+                        row.ourPillow ? (
                           <div className="w-8 h-8 rounded-full bg-emerald-500/20 border border-emerald-500/40 text-emerald-400 flex items-center justify-center mx-auto shadow-md">
                             <Check className="w-5 h-5 stroke-[3]" />
                           </div>
@@ -114,7 +114,7 @@ export const ComparisonTable = () => {
                           <X className="w-5 h-5 text-slate-600 mx-auto" />
                         )
                       ) : (
-                        <span className="text-emerald-400 font-extrabold text-sm">{row.somnaform}</span>
+                        <span className="text-emerald-400 font-extrabold text-sm">{row.ourPillow}</span>
                       )}
                     </td>
 
@@ -157,7 +157,7 @@ export const ComparisonTable = () => {
           {/* CTA Footer inside comparison table */}
           <div className="p-6 bg-slate-950 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="text-xs text-slate-400 text-center sm:text-left">
-              <span className="font-semibold text-white">30-Night Sleep Trial Included</span> — Backed by our 100% money-back satisfaction guarantee.
+              <span className="font-semibold text-white">30-Night Sleep Trial Included</span> — Try it at home with 100% money-back guarantee.
             </div>
             <button
               onClick={() => {
@@ -166,7 +166,7 @@ export const ComparisonTable = () => {
               }}
               className="px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm shadow-lg shadow-indigo-600/30 transition duration-200 cursor-pointer"
             >
-              Get SomnaForm Pillow - $79
+              Get Your Cooling Pillow - $79
             </button>
           </div>
         </div>
